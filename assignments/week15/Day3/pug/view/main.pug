@@ -1,0 +1,43 @@
+doctype html
+head
+  title Assignment Week 15 day3 Pug
+  meta(charset='utf-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1')
+  link(rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css')
+  script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js')
+  script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js')
+  script(src='https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js')
+
+  link(href='css/style.css' rel='stylesheet' type='text/css')
+h1(style="text-align:center;") Assignment Week 15 day 3
+hr  
+
+h3 Use This Column for Post Method
+p id : Don't Worry i'll Create Your ID. 
+form(action="/", method="post") 
+            p userId : 
+                input(type="Number", name="userId")
+            p Title : 
+                input(type="text", name="title")
+            p Body : 
+                input(type="text", name="body")
+            p
+            input.btn.btn-danger(type='submit')
+hr
+if data == 0
+    p(style="font-size: larger;") No Data Found
+else
+    table(style="float:left; border: 1px solid green")
+        tbody  
+            each item in data
+                tr
+                td(style="border: 1px solid grey ; font-size: 1.0rem")
+                    | Userid: #{item.userId }
+                    br
+                    | id: #{item.id}  
+                    br
+                    | Title: #{item.title} 
+                    br
+                    | Body: #{item.body}
+
+hr

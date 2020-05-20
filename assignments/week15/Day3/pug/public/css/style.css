@@ -1,0 +1,24 @@
+body {
+    margin: 0rem 1rem;
+    background: url(../images/bg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+tr {
+    background: black;
+    border: 2px dotted white;
+    color: white;
+    opacity: 0.8;
+}
+tr td {
+    padding: 1rem 1rem;
+}
+td p {
+    margin: 0;
+}
+form {
+    display: inline-flex;
+}
+form p {
+    margin-right: 1rem;
+}
