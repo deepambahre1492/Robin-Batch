@@ -1,0 +1,22 @@
+{
+  "name": "week15-day5-assignment",
+  "version": "1.0.0",
+  "description": "week15-day5-assignment file upload",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "Express",
+    "multer",
+    "hbs"
+  ],
+  "author": "Deepam Bahre",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "file_upload",
+  "version": "1.0.0",
+  "description": "file_upload",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "Multer",
+    Cloudnary
+  ],
+  "author": "Deepam Bahre",
+  "license": "ISC",
+  "dependencies": {
+    "cloudinary": "^1.21.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2"
+  }
+}
